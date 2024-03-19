@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.mykhel.com/img/2023/03/hpca-stadium-1680103638.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+#Leaderboard{
+    /* height: 200px; */
+    padding: 50px;
+    width: 60%;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: auto;
+}
+form input, form select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 0.5rem;
+    margin: 5px;
+}
+option value{
+    height: 30px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+th,td{
+    padding: 5px;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.red
+{
+    background-color: red;
+    cursor: pointer;
+}
+.green
+{
+    background-color: green;
+    cursor: pointer;
+
+}

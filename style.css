@@ -1,0 +1,153 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/70/73/76/1000_F_270737695_IaAkTD2p7vhmI5YNuYAGYlk2pGVwJUXS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wrapper
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.leader_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leaderboard
+{
+    width: 90vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: black;
+    border-radius: 15px;
+
+}
+form{
+    text-align: center;
+
+}
+form input, form select{
+    padding: 10px;
+    border-radius: 5px;
+}
+form button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+table{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+th, td{
+    padding: 5px;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.red{background-color: red;}
+.green{background-color: green;} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.augustman.com/wp-content/uploads/sites/4/2023/04/20180002/untitled-design-2023-04-16t071319-214.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wrapper
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+#leaderboard
+{
+    width:90vw;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #00000090;
+    border-radius: 15px;
+
+}
+form{
+    text-align: center;
+
+}
+form input, form select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 0.5rem;
+}
+
+form button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    width: 150px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+table
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+th,td{
+    padding: 5px;
+}
+.circle
+{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.red
+{
+    background-color: red;
+    cursor: pointer;
+}
+.green
+{
+    background-color: green;
+    cursor: pointer;
+
+}
